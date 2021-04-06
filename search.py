@@ -1,4 +1,3 @@
-# NEW LIBRARIES
 import pandas as pd
 from sklearn.feature_extraction.text import (CountVectorizer, TfidfTransformer)
 from sklearn.metrics.pairwise import cosine_similarity
@@ -6,13 +5,14 @@ from sklearn.metrics.pairwise import cosine_similarity
 import os, yaml, json, re, sys
 import datetime
 
+
 settingsFile = "./settings.yml"
 settings = yaml.load(open(settingsFile))
 
 dataPath = settings["path_to_data"]
 
 ########################
-searchTerm = "Herzog"
+searchTerm = r"\b(((w|W)ein)|((b|B)aum))garten\b"
 ########################
 
 def loadFile(dataPath):
@@ -21,26 +21,31 @@ def loadFile(dataPath):
 
      return data
 
-def searchReg(searchTerm, regDict):
+def searchReg(regDict):
 
     resultsDict = {}
 
     for key, val in regDict.items():
         
         if "cont" in val:
-            if searchTerm in val["cont"]:            
+            if re.search(r"\b%s\b" % searchTerm, val["cont"], flags=re.IGNORECASE):
+            #if searchTerm in val["cont"]:            
                 resultsDict[key] = {}
                 resultsDict[key]["cont"] = val["cont"]                                
                
     return resultsDict
 
 def saveResults(resultsDict):
-    with open(dataPath + searchTerm +".search", 'w', encoding='utf8') as f9:
+
+    saveWith = re.sub("\W+", "", searchTerm)
+    saveTo = os.path.join(dataPath, "searches", "%s.searchResults" % saveWith)
+
+    with open(saveTo, 'w', encoding='utf8') as f9:
         json.dump(resultsDict, f9, sort_keys=True, indent=4, ensure_ascii=False)
 
 
 regDict = loadFile(dataPath)
-results = searchReg(searchTerm, regDict)
+results = searchReg(regDict)
 saveResults(results)
 
 
