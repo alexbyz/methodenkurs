@@ -12,7 +12,9 @@ settings = yaml.load(open(settingsFile))
 dataPath = settings["path_to_data"]
 
 ########################
-searchTerm = r"\b(((w|W)ein)|((b|B)aum))garten\b"
+#searchTerm = r"\b(((w|W)ein)|((b|B)aum))garten\b"
+#searchTerm = r"\b(s|S)tephan\b"
+searchTerm = r"(frau|(v|V)row)"
 ########################
 
 def loadFile(dataPath):
@@ -28,7 +30,7 @@ def searchReg(regDict):
     for key, val in regDict.items():
         
         if "cont" in val:
-            if re.search(r"\b%s\b" % searchTerm, val["cont"], flags=re.IGNORECASE):
+            if re.search(r"%s" % searchTerm, val["cont"], flags=re.IGNORECASE):
             #if searchTerm in val["cont"]:            
                 resultsDict[key] = {}
                 resultsDict[key]["cont"] = val["cont"]                                
