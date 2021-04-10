@@ -22,7 +22,9 @@ dataPath = settings["path_to_data"]
 #searchTerm = r"spital"
 #searchTerm = r"\b(s|S)un\b"
 #searchTerm = r"\b(t|T)ochter\b"
-searchTerm = r"purger"
+#searchTerm = r"purger"
+#searchTerm = r"\b(h|H)erz(o|\u00f6)"
+searchTerm = r"\b([A-Z])\w+\b (der|des|dem) \b\w+\b"
 ########################
 
 def loadFile(dataPath):
@@ -34,8 +36,8 @@ def loadFile(dataPath):
 def searchReg(regDict):
 
     resultsDict = {}
-
     count = 0
+    regList = []
 
     for key, val in regDict.items():
 
@@ -47,11 +49,14 @@ def searchReg(regDict):
                 resultsDict[key]["cont"] = val["cont"]
                 resultsDict[key]["link"] = val["link"]
                 count +=1
+                regList.append(key)
 
         resultsDict["count"] = count  
 
         currentTime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        resultsDict["timestamp"] = currentTime                        
+        resultsDict["timestamp"] = currentTime 
+
+    resultsDict["list"] =  regList              
                
     return resultsDict
 

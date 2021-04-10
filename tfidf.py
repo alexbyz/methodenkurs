@@ -70,13 +70,13 @@ def generatetfidfvalues():
     cosineTableDic = cosineTable.to_dict()
 
     filteredDic = {}
-    filteredDic = filterDic(tfidfTableDic, 0.002)
+    filteredDic = filterDic(tfidfTableDic, 0.02)
     saveTo = os.path.join(dataPath, "tfidf", "tfidfTableDic_filtered.txt")
     with open(saveTo, 'w', encoding='utf8') as f9:
         json.dump(filteredDic, f9, sort_keys=True, indent=4, ensure_ascii=False)
 
     filteredDic = {}
-    filteredDic = filterDic(cosineTableDic, 0.04)
+    filteredDic = filterDic(cosineTableDic, 0.2)
 
     saveTo = os.path.join(dataPath, "tfidf", "cosineTableDic_filtered.txt")
     with open(saveTo, 'w', encoding='utf8') as f9:
