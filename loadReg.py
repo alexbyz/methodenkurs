@@ -1,4 +1,3 @@
-# NEW LIBRARIES
 import pandas as pd
 from sklearn.feature_extraction.text import (CountVectorizer, TfidfTransformer)
 from sklearn.metrics.pairwise import cosine_similarity
@@ -61,14 +60,22 @@ def loadData(path):
 
                     regDict[number]["date"] = dateX.strftime('%b/%d/%Y')                       
 
-                if "Original dating clause:" in line:
-                    regDict[number]["orig"] = line.strip("Original dating clause:")
+                if "Original dating clause:" in line:                    
+                    line = line.strip("Original dating clause")
+                    regDict[number]["orig"] = line.strip(":")
 
                 if "Abstract:" in line:                                                 
                     regDict[number]["cont"] = line.strip("Abstract:")
 
+                if "Link:" in line:                                                 
+                    regDict[number]["link"] = line.strip("Link:")
+
     with open(path + "regesten.json", 'w', encoding='utf8') as f9:
         json.dump(regDict, f9, sort_keys=True, indent=4, ensure_ascii=False)
+    
+    print("*"*80)
+    print("%d Regesten geladen" %len(regDict))
+    print("*"*80)
     
     return regDict
 

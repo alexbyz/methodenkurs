@@ -30,6 +30,8 @@ werden
 wird
 sein
 ist
+war
+gewesen
 man
 er
 sie
@@ -44,3 +46,5 @@ davon
 nach
 vor
 ihres
+in
+um

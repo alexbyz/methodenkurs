@@ -1,4 +1,4 @@
 path_to_data: .\_data\
 ngram_range: (1,1)
 min_df: 5
-max_df: 0.5
+max_df: 0.7

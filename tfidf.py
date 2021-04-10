@@ -71,13 +71,15 @@ def generatetfidfvalues():
 
     filteredDic = {}
     filteredDic = filterDic(tfidfTableDic, 0.002)
-    with open("tfidfTableDic_filtered.txt", 'w', encoding='utf8') as f9:
+    saveTo = os.path.join(dataPath, "tfidf", "tfidfTableDic_filtered.txt")
+    with open(saveTo, 'w', encoding='utf8') as f9:
         json.dump(filteredDic, f9, sort_keys=True, indent=4, ensure_ascii=False)
 
     filteredDic = {}
     filteredDic = filterDic(cosineTableDic, 0.04)
 
-    with open("cosineTableDic_filtered.txt", 'w', encoding='utf8') as f9:
+    saveTo = os.path.join(dataPath, "tfidf", "cosineTableDic_filtered.txt")
+    with open(saveTo, 'w', encoding='utf8') as f9:
         json.dump(filteredDic, f9, sort_keys=True, indent=4, ensure_ascii=False)
 
 data = loadFile(dataPath)
