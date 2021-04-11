@@ -26,9 +26,10 @@ dataPath = settings["path_to_data"]
 #searchTerm = r"\b(h|H)erz(o|\u00f6)"
 #searchTerm = r"\b([A-Z])\w+\b (der|des|dem) \b\w+\b"
 #searchTerm = r"(swester|) Kathrein"
-searchTerm = r"Chunra(d|t)"
+#searchTerm = r"Chunra(d|t)"
 #searchTerm = r"Mergart"
 #searchTerm = r"Jansen"
+searchTerm = r"\bpurgermaister\b"
 ########################
 
 def loadFile(dataPath):
