@@ -1,0 +1,69 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/223</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2010-02-26T21:12:25+01:00</atom:published>
+   <atom:updated>2010-02-26T21:12:25+01:00</atom:updated>
+   <atom:author>
+      <atom:email></atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns="http://www.monasterium.net/NS/cei" xmlns:cei="http://www.monasterium.net/NS/cei" id="514392" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 223</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="223" old="514392">223</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>
+                  <cei:foreign>Otte von Wultzendorf</cei:foreign>, des Propstes 
+                  <cei:foreign>Rudweins perchmaister und amptmann ze Neuenburch</cei:foreign>, beurkundet, dass vor ihn 
+                  <cei:foreign>ze Otakchrinne in rechtem etaiding her Dietreich der Urbetsch, purger ze Wienne, ze
+                     gegenburte dem egenanten probest Rudwein und ander erbern leuten, die desselben tages
+                     da waren
+                  </cei:foreign>, gekommen sei und wegen 3 lb dn. versessenen 
+                  <cei:foreign>gelts ewiges purchrechtes</cei:foreign> auf einem Weingarten, 
+                  <cei:foreign>der da leit ze Otakchrinne, des dreu virtail sint und haisset der Zairekcher, der
+                     weiln und e Jacobes, hern Rugers sun, des chropphaten schreiber, gewesen ist, davon
+                     man dient alle iar ze rechtem perchrecht dem goteshaus ze Neuenburch achthalb virtail
+                     weins und sechsthalben phenninge ze voitrecht
+                  </cei:foreign>, Klage erhoben habe, worauf er des Weingartens gewaltig gemacht worden sei.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:placeName>Wien</cei:placeName>
+                  <cei:date value="13400817">1340 VIII 17</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00223_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00223_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Zwei anhangende Siegel: 1. ungefärbt, sechseckig, 2. roth u. K., rund.Besiegelt von
+                        dem Aussteller und 
+                        <cei:legend>hern Chunrat dem Herscheftelin</cei:legend>.
+                     </cei:sealDesc>
+                  </cei:auth>
+                  <cei:nota>Indorsat: 
+                     <cei:foreign>super vinea chophater schreiber</cei:foreign>.
+                  </cei:nota>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:quoteOriginaldatierung>ze Wienne, des naehsten phinztages nach Unser Vrowen tage der schiedunge.</cei:quoteOriginaldatierung>
+               </cei:diplomaticAnalysis>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>

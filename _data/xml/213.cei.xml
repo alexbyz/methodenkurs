@@ -1,0 +1,72 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/213</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2015-03-23T16:09:38.502+01:00</atom:published>
+   <atom:updated>2015-03-23T16:09:38.502+01:00</atom:updated>
+   <atom:author>
+      <atom:email>claudia.hoeller@univie.ac.at</atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" id="514382" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 213</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="213" old="514382">213</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>
+                  <cei:foreign>Andre der Chrannest, pfarrer ze Ruprechtzhofen</cei:foreign> und Kaplan in seines Vaters Kapelle, 
+                  <cei:foreign>die da leit in sant Stephans vreithof under dem neun Charner</cei:foreign>, gibt, mit Willen seiner Brüder seinem Kaplan 
+                  <cei:foreign>hern Ulreichen zu sant Vergilii altar in derselben chappellen 7 lb dn. gelts</cei:foreign>, wovon 6 lb aus den 9 lb dn. genommen werden, die man von der 
+                  <cei:foreign>padstuben bei dem Rotenturn under den Hafnern</cei:foreign> zu der genannten Kapelle dient, und 1 lb dn. anliegt auf 
+                  <cei:foreign>Ru/edleins haus, Jacobs sun, des choler an dem Cholmarcht</cei:foreign>.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:date value="13400202">1340 II 02</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00213_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00213_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Drei anhangende Siegel.Besiegelt von dem Aussteller und seinen Brüdern 
+                        <cei:legend>Jacob</cei:legend> und 
+                        <cei:legend>Dietreich</cei:legend>.
+                     </cei:sealDesc>
+                  </cei:auth>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:p> 
+                     <cei:index>neuer Karner </cei:index>  
+                     <cei:persName>Andre Chrannest</cei:persName>
+                     <cei:persName>Jacob Chrannest</cei:persName>
+                     <cei:persName>Dietmar Chrannest</cei:persName>
+                     <cei:index>Kapelle der Chrannest</cei:index>
+                     <cei:index>Messe der Chrannest</cei:index>
+                     <cei:placeName>Virgilaltar </cei:placeName>
+                     <cei:index>Friedhof </cei:index>
+                     <cei:index>Kaplan </cei:index>
+                     <cei:index>Pfarrer</cei:index>
+                     <cei:index>Dienst an die Kapelle der Chrannest</cei:index>
+                  </cei:p>
+                  <cei:quoteOriginaldatierung>an Unser Vrauen tag ze der Liechtmesse.</cei:quoteOriginaldatierung>
+               </cei:diplomaticAnalysis>
+               <cei:lang_MOM></cei:lang_MOM>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>

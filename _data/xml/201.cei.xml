@@ -1,0 +1,90 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/201</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2015-04-23T08:55:57.884+02:00</atom:published>
+   <atom:updated>2015-04-23T08:55:57.884+02:00</atom:updated>
+   <atom:author>
+      <atom:email>claudia.hoeller@univie.ac.at</atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" id="514370" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 201</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="201" old="514370">201</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>
+                  <cei:foreign>Seifrit der Gafferswent</cei:foreign> beurkundet, dass sein Oheim 
+                  <cei:foreign>her Ditmar der Gafferswent, dem got gnade</cei:foreign>, zu einer Messe auf der Zwölf boten Altar bei S. Stephan ein Joch Weingarten, 
+                  <cei:foreign>leit an dem Miesenchobel zenaest hern Pilgreims weingarten, des Ro/eten Marcharts
+                     sun, und haist der Eisenport
+                  </cei:foreign>, und seine Muhme 
+                  <cei:foreign>junchvrowe Percht</cei:foreign>, Dietmars Schwester, 
+                  <cei:foreign>der got auch genade</cei:foreign>, zu derselben Messe 
+                  <cei:foreign>ein haus, leit zenaest Ortolfes, des chramer, haus an dem Chienmarcht ze Wienne</cei:foreign>, geschafft und die Ausführung des Geschäftes insbesondere 
+                  <cei:foreign>hern Perchtolden dem Geuchramer, chirchmaister ze sant Stephan</cei:foreign>, empfohlen, die Messe aber ihm übertragen haben, während seine beiden Oheime 
+                  <cei:foreign>Lucas und Niclas derselben messe wartunde sint</cei:foreign>. Da nun er und der beiden Letztgenannten Väter 
+                  <cei:foreign>Sighart und Niclas</cei:foreign> besorgt haben 
+                  <cei:foreign>reifen, chelten, schauer und ander unglück, davon der weingarten mocht verderben und
+                     die messe damit versaumt wurde, und darumb durch recht ehaft not, dass
+                  </cei:foreign> sie 
+                  <cei:foreign>ein ungewisses ze einem gewissen dinge und ze einer ewigen sicherhait mochten gemachen</cei:foreign>, so haben sie mit Willen 
+                  <cei:foreign>hern Perchtoltz des Geuchramer</cei:foreign> und mit Handen des Bergmeisters 
+                  <cei:foreign>hern Petreins des Puhler ze Lu/enz, amptman der herren ze Mauerbach</cei:foreign>, den Weingarten mit 2 Eimern Bergrecht und 3 dn. Voitrecht 
+                  <cei:foreign>Ortolfen, dem pekchen an dem Graben ze Wienne</cei:foreign>, und seiner Hausfrau 
+                  <cei:foreign>Elspet</cei:foreign> um 8 lb dn. ewiges Burgrechts verkauft, wovon 4 lb auf dem Weingarten liegen bleiben
+                  sollen, 4 lb aber angelegt werden auf zwei 
+                  <cei:foreign>protladen, die neben einander ligen, und ouf einer grueben, die leit darunder zenaest
+                     Seifrides des Sibenweiben hous
+                  </cei:foreign> an dem Graben.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:placeName>Wien</cei:placeName>
+                  <cei:date value="13380917">1338 IX 17</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00201_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00201_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Drei anhangende Siegel: 1., 2. roth u. K., spitzoval, 3. ungefärbt, rund, Bruchstück.Besiegelt
+                        mit den Siegeln: 1. des Ausstellers, 2. 
+                        <cei:legend>herren Tylen, prior ze Mauerbach, der des weingarten obrister percherr ist</cei:legend>, 3. 
+                        <cei:legend>herrn Perchtoldes des Geuchramer</cei:legend>.
+                     </cei:sealDesc>
+                  </cei:auth>
+                  <cei:nota>Indorsat: 
+                     <cei:foreign>Octava littera</cei:foreign>.
+                  </cei:nota>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:p>
+                     <cei:index>Zwölfbotenaltar</cei:index>
+                     <cei:index>Kirchmeister</cei:index>
+                     <cei:index>Messe des Dietmar Gafferswent</cei:index>
+                  </cei:p>
+                  <cei:quoteOriginaldatierung>ze Wienne, an sant Lamprechst tage.</cei:quoteOriginaldatierung>
+                  <cei:listBiblEdition>
+                     <cei:bibl>Camesina, Regesten 3 no 6 Regest.</cei:bibl>
+                  </cei:listBiblEdition>
+               </cei:diplomaticAnalysis>
+               <cei:lang_MOM></cei:lang_MOM>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>

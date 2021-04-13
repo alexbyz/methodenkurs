@@ -1,0 +1,67 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/216</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2010-02-26T21:12:23+01:00</atom:published>
+   <atom:updated>2010-02-26T21:12:23+01:00</atom:updated>
+   <atom:author>
+      <atom:email></atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns="http://www.monasterium.net/NS/cei" xmlns:cei="http://www.monasterium.net/NS/cei" id="514385" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 216</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="216" old="514385">216</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>
+                  <cei:foreign>Elspet, Chunrates wittibe des metsieder</cei:foreign>, verkauft nach Rath des Schottenabtes 
+                  <cei:foreign>Hainreich</cei:foreign> und mit Handen ihrer Grundherren (
+                  <cei:foreign>graf Albrechts von Hohenwerch, pharrer datz sand Stephan zu Wienne, hern Jacobes des
+                     Maeserlein, obrister spitalmaister der purger Spital ze Wienne und hern Herworts auf
+                     der Seule
+                  </cei:foreign>) ihres rechten ledigen Burgrechts 11 lb dn., die sie 
+                  <cei:foreign>wittibenweise</cei:foreign> gekauft hatte, wovon 
+                  <cei:foreign>5</cei:foreign> lb dn. 
+                  <cei:foreign>geltes ligent auf Leutoldes haus, des Wolfes sun von Radaun, pei Werdertor</cei:foreign>, das sie früher besessen hatte, und 6 lb dn. 
+                  <cei:foreign>gelts purchrechts auf Stephans hause des Pophinger in der Wollzeil, das weiln und
+                     e Dietmares des Rauber gewesen ist
+                  </cei:foreign>, um 99 lb dn. 
+                  <cei:foreign>hern Dietreichen dem Urbetschen, purger ze Wienne</cei:foreign>, und seiner Hausfrau 
+                  <cei:foreign>Elspet</cei:foreign>.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:date value="13400317">1340 III 17</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00216_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00216_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Vier anhangende Siegel: 1. roth u. K., spitzoval, 2. grün u. K., spitzoval, 3. grün
+                        u. K., sechseckig, 4. grün u. K., rund.Besiegelt mit den Siegeln des Schottenabtes
+                        und der Grundherren.
+                     </cei:sealDesc>
+                  </cei:auth>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:quoteOriginaldatierung>an sand Gedrauten tag in der Vasten.</cei:quoteOriginaldatierung>
+               </cei:diplomaticAnalysis>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>

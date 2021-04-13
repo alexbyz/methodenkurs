@@ -1,0 +1,73 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/214</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2010-02-26T21:12:22+01:00</atom:published>
+   <atom:updated>2010-02-26T21:12:22+01:00</atom:updated>
+   <atom:author>
+      <atom:email></atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns="http://www.monasterium.net/NS/cei" xmlns:cei="http://www.monasterium.net/NS/cei" id="514383" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 214</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="214" old="514383">214</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>
+                  <cei:foreign>Gotschalich der Inprucker ab dem Wasen</cei:foreign> und 
+                  <cei:foreign>Reitz</cei:foreign>, seine Hausfrau, verkaufen mit Handen ihrer Bergherrn (
+                  <cei:foreign>hern Reimprechts von Eberstorf, obrister chamrer in Österreich, hern Wernharts von
+                     Meichssaue, hern Chunrats des Nussdorfer
+                  </cei:foreign>, des Bruders der 
+                  <cei:foreign>Reitz</cei:foreign>, und 
+                  <cei:foreign>hern Gerungs des Choln, amptman des gotshaus Unser Vrowen ze Neuenburch chlosterhalben</cei:foreign>) ihr Drittel Weingarten, den 
+                  <cei:foreign>Reitz</cei:foreign> ererbt hatte, 
+                  <cei:foreign>der da leit an dem Nussperge in der Mittern Schosse, zenachst Hainreichs weingarten
+                     von der Schaebnitz, da man alle iar von dient von der obern schosse hern Reinprechten
+                     von Eberstorf, hern Wernharten von Meichssaue und hern Chunraten dem Nusstorfer und
+                     auch uns fumf staef und einer drittail einer staef weins ze perchrecht und ein ort
+                     ze voitrecht, und von der nidern schosse dem gotshaus ze Neuenburch an ein drittail
+                     einer staef siben staef weins ze perchrecht und einen helblinch ze voitrecht
+                  </cei:foreign> . . . ., um 118 lb dn. dem vorgenannten 
+                  <cei:foreign>Hainreichen von der Schaebnitz, purger ze Wienne</cei:foreign>, und seiner Hausfrau 
+                  <cei:foreign>Katrein</cei:foreign>.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:placeName>Wien</cei:placeName>
+                  <cei:date value="13400220">1340 II 20</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00214_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00214_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Fünf anhangende Siegel: 2. (Ebersdorf) grün u. Sch., 4. (Nussdorfer) sechseckig.Besiegelt
+                        mit den Siegeln des Ausstellers und der genannten Bergherren.
+                     </cei:sealDesc>
+                  </cei:auth>
+                  <cei:nota>Indorsat: Aufschrift des 
+                     <cei:foreign>Magister Theodericus</cei:foreign>.
+                  </cei:nota>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:quoteOriginaldatierung>ze Wienne, des naechsten suntages vor sant Mathias tage.</cei:quoteOriginaldatierung>
+               </cei:diplomaticAnalysis>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>

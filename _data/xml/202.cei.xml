@@ -1,0 +1,68 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/202</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2010-02-26T21:12:16+01:00</atom:published>
+   <atom:updated>2010-02-26T21:12:16+01:00</atom:updated>
+   <atom:author>
+      <atom:email></atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns="http://www.monasterium.net/NS/cei" xmlns:cei="http://www.monasterium.net/NS/cei" id="514371" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 202</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="202" old="514371">202</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>
+                  <cei:foreign>Otacher, des Tonigleins aidem, und Katrei</cei:foreign>, seine Hausfrau, verkaufen mit Handen ihrer Grundfrau 
+                  <cei:foreign>Vromu/eden von Cheiawe, priolinne in Vrowenchloster ze Tulln, 1</cei:foreign> lb 
+                  <cei:foreign>dn. gelts ewiges purchrechts</cei:foreign> auf ihrem Hause, 
+                  <cei:foreign>das da leit an der Stiege, und das weilent hern Wilhalms an der Stieg gewesen ist,
+                     zenaest Pilgreims haus, des saltzhacher
+                  </cei:foreign>, von dem man jährlich den 
+                  <cei:foreign>vrowen von Tulln</cei:foreign> 12 dn. Grundrecht und 1 lb dn. Burgrecht dient, um 
+                  <cei:foreign>7</cei:foreign> lb dn. 
+                  <cei:foreign>hern Perichtolten dem Pollen, purgermaister ze Wienne</cei:foreign>, und seiner Hausfrau 
+                  <cei:foreign>Margret</cei:foreign>.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:placeName>Wien</cei:placeName>
+                  <cei:date value="13381206">1338 XII 06</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00202_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00202_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Zwei anhangende Siegel: 1. des Klosters von Tulln, ungefärbt, spitzoval, beschädigt,
+                        2. des Ausstellers, fehlt, 3. grün u. K., sechseckig.Besiegelt mit den Siegeln: 1.
+                        des Ausstellers, 2. der Grundfrau, 3. 
+                        <cei:legend>hern Jacobs des Meserlein</cei:legend>.
+                     </cei:sealDesc>
+                  </cei:auth>
+                  <cei:nota>Indorsat: Aufschrift des 
+                     <cei:foreign>Magister Theodericus. E. XI</cei:foreign>.
+                  </cei:nota>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:quoteOriginaldatierung>ze Wienne, an sande Niclas tage.</cei:quoteOriginaldatierung>
+               </cei:diplomaticAnalysis>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>

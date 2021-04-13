@@ -1,0 +1,61 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/205</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2010-02-26T21:12:17+01:00</atom:published>
+   <atom:updated>2010-02-26T21:12:17+01:00</atom:updated>
+   <atom:author>
+      <atom:email></atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns="http://www.monasterium.net/NS/cei" xmlns:cei="http://www.monasterium.net/NS/cei" id="514374" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 205</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="205" old="514374">205</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>
+                  <cei:foreign>Otte, herzogen Otten chamerschreiber in Österreich</cei:foreign>, und 
+                  <cei:foreign>Elspeth</cei:foreign>, seine Hausfrau, verkaufen mit Handen ihrer Grundfrau 
+                  <cei:foreign>swester Kathrein, aptessinne dacz sand Nichlos</cei:foreign>, ihren Baumgarten, 
+                  <cei:foreign>der da leit ze Altunaue zenehst dem Ratgeben auf der Widem, davon man dient alle jar
+                     ze rechtem gruntrecht 30 dn. den vrowen hinz sand Nichlos und 80 dn. den herren von
+                     dem Heiligen chreucz ze purchrecht
+                  </cei:foreign>, um 17 lb dn. 
+                  <cei:foreign>Chunraden dem Wiltwercher, purger ze Wienn, und vron Mergarten</cei:foreign>, seiner Hausfrau.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:date value="13390112">1339 I 12</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00205_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00205_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Zwei anhangende Siegel: 1. spitzoval, 2. sechseckig.Besiegelt mit den Siegeln: 1.
+                        der Grundfrau, 2. 
+                        <cei:legend>hern Nichlas von Eslarn</cei:legend>.
+                     </cei:sealDesc>
+                  </cei:auth>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:quoteOriginaldatierung>des eritags nach dem Perchtag.</cei:quoteOriginaldatierung>
+               </cei:diplomaticAnalysis>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>

@@ -10,12 +10,7 @@ settings = yaml.load(open(settingsFile))
 
 dataPath = settings["path_to_data"]
 
-#loads the regesten from a file and saves them to a json file, returns a dictionary
-#Data Structure for the Regesten: 
-# Urkunde:
-# Datum:
-# Abstract:
-# Original Dating clause:
+import xml.etree.ElementTree as ElementTree
 
 def convRomanNumb(s):
     roman = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000,'IV':4,'IX':9,'XL':40,'XC':90,'CD':400,'CM':900}
@@ -31,52 +26,72 @@ def convRomanNumb(s):
             i+=1
     return num
 
-def loadData(path):
+def loadData(path):   
 
-    regDict = {}
+    regDict = {}    #empty dict for data
 
-    with open(path + "Regesten.txt", "r", encoding="utf8") as f1:
-        regesten = f1.read().split("\n:")       
+    for subdir, dirs, files in os.walk(path):   #go through all the datastructure in _data/xml/
+        for file in files:
+            if ".xml" in file:                  #choose only xml files
 
-        for r in regesten:            
-          
-            lines = r.split("\n")
-            for line in lines:
+                p = os.path.join(subdir, file)  #re create the paths of the files
 
-                content = ""
+                tree = ElementTree.parse(p)     #get the tree
+                root = tree.getroot()           #root
 
-                if "Urkunde:" in line:
-                    #print(re.findall(r'\b\d+\b', line))
-                    num =  re.findall(r'\b\d+\b', line)
-                    regDict[num[0]] = {}                    
-                    number = num[0]                    
+                ####
+                #get number
+                cont = root.findall("./{http://www.w3.org/2005/Atom}content//{http://www.monasterium.net/NS/cei}idno")  #gets the idno of the regest
+                
+                for c in cont:  #goes through all the elements in in 
+                    key = "".join(c.itertext()) #joins up all the texts within
+                    regDict[key]={}             #entry in the dict, subdict with the regId al key
+                ####
+                
+                ####
+                #get content
+                cont = root.findall("./{http://www.w3.org/2005/Atom}content//{http://www.monasterium.net/NS/cei}abstract")  #gets the abstract text
 
-                if "Datum:" in line:
-                    dateString = line.strip("Datum:")
-                    dateString = dateString.lstrip()
-                    d = dateString.split(" ")
-                    d[1] = convRomanNumb(d[1])  
-                    dateX = datetime.datetime(int(d[0]), int(d[1]), int(d[2]))
+                for c in cont:
+                    text = "".join(c.itertext())
+                
+                text = text.replace("\n", "")       #removes newlines
+                text = " ".join(re.split("\s+", text, flags=re.UNICODE))    #removes spaces within
 
-                    regDict[number]["date"] = dateX.strftime('%b/%d/%Y')                       
+                regDict[key]["cont"] = text         #stores it in the dict
+                ####
+                #get date
+                cont = root.findall("./{http://www.w3.org/2005/Atom}content//{http://www.monasterium.net/NS/cei}date")  #gets the date of the regest
 
-                if "Original dating clause:" in line:                    
-                    line = line.strip("Original dating clause")
-                    regDict[number]["orig"] = line.strip(":")
+                for c in cont:
+                    dateString = "".join(c.itertext())
 
-                if "Abstract:" in line:                                                 
-                    regDict[number]["cont"] = line.strip("Abstract:")
+                date = dateString.split(" ")    #date is in a string, formate year, month(roman), day
+                date[1] = convRomanNumb(date[1])  #converts the month into arab number
+                dateX = datetime.datetime(int(date[0]), int(date[1]), int(date[2])) #proper python date format
 
-                if "Link:" in line:                                                 
-                    regDict[number]["link"] = line.strip("Link:")
+                regDict[key]["date"] = dateX.strftime('%b/%d/%Y')                #store into the dict
+                ####
+                #get link
+                cont = root.findall("./{http://www.w3.org/2005/Atom}id")        #gets the id monasterium adds to the regest
 
-    with open(path + "regesten.json", 'w', encoding='utf8') as f9:
-        json.dump(regDict, f9, sort_keys=True, indent=4, ensure_ascii=False)
+                for c in cont:
+                    link = "".join(c.itertext())
+                regDict[key]["id"] = link.replace("tag:", "")
+                ####
+                #get orig dateing
+                cont = root.findall("./{http://www.w3.org/2005/Atom}content//{http://www.monasterium.net/NS/cei}quoteOriginaldatierung")
+
+                for c in cont:
+                    orig = "".join(c.itertext())
+
+                orig = orig.replace("\n", "")   #removes newlines
+                orig = " ".join(re.split("\s+", orig, flags=re.UNICODE))    #removes spaces within
+
+                regDict[key]["orig"] = orig         #stores the citation of the original dating
+                ####                
+
+    with open(path + "regesten.json", 'w', encoding='utf8') as f9:      #saves the dict into a json file
+        json.dump(regDict, f9, sort_keys=True, indent=4, ensure_ascii=False)          
     
-    print("*"*80)
-    print("%d Regesten geladen" %len(regDict))
-    print("*"*80)
-    
-    return regDict
-
-loadData(dataPath)   
+loadData(dataPath)

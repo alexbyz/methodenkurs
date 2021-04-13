@@ -34,10 +34,9 @@ def filterDic(dic, thold):
     return(retDic)
 
 def generatetfidfvalues():
-
-    #ocrFiles = functions.dicOfRelevantFiles(memexPath, ".json")
-    ocrFiles = loadReg.loadData(dataPath)
-    citeKeys = list(ocrFiles.keys())
+    
+    data = loadFile(dataPath)
+    citeKeys = list(data.keys())
 
     docList   = []
     docIdList = []
@@ -82,5 +81,4 @@ def generatetfidfvalues():
     with open(saveTo, 'w', encoding='utf8') as f9:
         json.dump(filteredDic, f9, sort_keys=True, indent=4, ensure_ascii=False)
 
-data = loadFile(dataPath)
 generatetfidfvalues()

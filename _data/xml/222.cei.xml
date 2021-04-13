@@ -1,0 +1,60 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/222</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2010-02-26T21:12:25+01:00</atom:published>
+   <atom:updated>2010-02-26T21:12:25+01:00</atom:updated>
+   <atom:author>
+      <atom:email></atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns="http://www.monasterium.net/NS/cei" xmlns:cei="http://www.monasterium.net/NS/cei" id="514391" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 222</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="222" old="514391">222</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>
+                  <cei:foreign>Pruder Irenfrid der Mer, maister des hauses ze dem Heiligen Geist ze Wienn, und aller
+                     convent daselbes
+                  </cei:foreign> verkaufen mit Handen ihres Bergherrn des Ritters 
+                  <cei:foreign>hern Gerungs des Cholen, amptman des gotshauss ze Neumburch</cei:foreign>, ein halbes Joch Weingarten, 
+                  <cei:foreign>der da leit ze Grinzing an dem Stainperig</cei:foreign> , . . 
+                  <cei:foreign>und haisset der Pheffel</cei:foreign>, von dem man 5/4 Wein zu Bergrecht und 3 Helbling zu Voitrecht dient, um 125 lb dn.
+                  
+                  <cei:foreign>Chunraten dem Wiltwercher, purgermaister ze Wienn</cei:foreign>, und seiner Hausfrau 
+                  <cei:foreign>Mergarten</cei:foreign>.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:placeName>Wien</cei:placeName>
+                  <cei:date value="13400802">1340 VIII 02</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00222_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00222_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Drei anhangende Siegel, 1. spitzoval.Besiegelt von den Ausstellern und dem Bergherrn.</cei:sealDesc>
+                  </cei:auth>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:quoteOriginaldatierung>ze Wienn, an sand Stephans abent.</cei:quoteOriginaldatierung>
+               </cei:diplomaticAnalysis>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>

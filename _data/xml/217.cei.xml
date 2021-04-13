@@ -1,0 +1,74 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/217</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2010-02-26T21:12:23+01:00</atom:published>
+   <atom:updated>2010-02-26T21:12:23+01:00</atom:updated>
+   <atom:author>
+      <atom:email></atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns="http://www.monasterium.net/NS/cei" xmlns:cei="http://www.monasterium.net/NS/cei" id="514386" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 217</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="217" old="514386">217</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>
+                  <cei:foreign>Jans, Ulreichs, Nichlas, die prudere, hern Ortolfes sune des Chrechsener</cei:foreign>, verkaufen nach Rath ihrer besten Freunde 
+                  <cei:foreign>hern Nichlas von Eslarn, hern Jacoben von Eslarn, seines sunes, hern Fridreichs von
+                     Tyrna und hern Jacobes, des statschreiber
+                  </cei:foreign>, mit Handen ihres Bergherrn 
+                  <cei:foreign>herrn Gerunges des Choln, des goteshauses amptman ze Neuenburch</cei:foreign>, ihr halbes Joch Weingarten, 
+                  <cei:foreign>der da leit ze Grinzingen an dem Stainperge zenahst der herren weingarten von dem
+                     Heiligen Geiste, davon man dient alle iar ze perchrecht fumf virtail weins und drei
+                     helblinge ze voitrecht
+                  </cei:foreign>, den ihnen ihr Freund 
+                  <cei:foreign>her Stephan der Chrigler</cei:foreign> vermacht hatte, um 70 Mark Silber 
+                  <cei:foreign>Wienner zal, ie zwen und sibenzich grosse fur di march, Albrechten, dem munzer</cei:foreign>, der ihn für seiner Schwester Kind 
+                  <cei:foreign>Christein, Stephans tochter des Strobein</cei:foreign>, kauft.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:placeName>Wien</cei:placeName>
+                  <cei:date value="13400409">1340 IV 09</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00217_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00217_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Sieben anhangende Siegel: 1., 2., 5., 6. ungefärbt, rund, 3. grün u. K., sechseckig,
+                        4. grün u. K., rund, 7. ungefärbt, sechseckig.Der jüngste Bruder 
+                        <cei:legend>Nichlas</cei:legend> entbehrt des Siegels. Besiegelt mit den Siegeln: 1. 
+                        <cei:legend>Jans</cei:legend>, 2. 
+                        <cei:legend>Ulreichs</cei:legend>, 3. 
+                        <cei:legend>Nichlas von Eslarn</cei:legend>, 4. seines Sohnes 
+                        <cei:legend>Jacob, 5</cei:legend>. des Bergherrn, 6. 
+                        <cei:legend>hern Fridreichs von Tyrna, 7. hern Jacobs, des statschreiber</cei:legend>.
+                     </cei:sealDesc>
+                  </cei:auth>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:quoteOriginaldatierung>ze Wienne, an dem Palmentage.</cei:quoteOriginaldatierung>
+                  <cei:listBiblEdition>
+                     <cei:bibl>Jahrbuch der kais. Kunstsamml. 16b, no 12688, Regest.</cei:bibl>
+                  </cei:listBiblEdition>
+               </cei:diplomaticAnalysis>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>

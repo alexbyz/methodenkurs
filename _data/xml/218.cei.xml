@@ -1,0 +1,67 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/218</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2010-02-26T21:12:23+01:00</atom:published>
+   <atom:updated>2010-02-26T21:12:23+01:00</atom:updated>
+   <atom:author>
+      <atom:email></atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns="http://www.monasterium.net/NS/cei" xmlns:cei="http://www.monasterium.net/NS/cei" id="514387" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 218</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="218" old="514387">218</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>
+                  <cei:foreign>Stephan der Chaeufel von Medlichke</cei:foreign> und 
+                  <cei:foreign>Geisel</cei:foreign>, seine Hausfrau, verkaufen mit Handen ihres 
+                  <cei:foreign>undern pergmaisters Dietreiches von Engelschalichsdorf 12 sh. dn. geltes purchrechtes</cei:foreign> auf ihrem Weingarten, 
+                  <cei:foreign>der do leit pei der V/ertail, der do haist der Mulner und leit zenegst Chu/enrates
+                     weingarten des Fuerter, do man alle iar von dient in dem lesen ainen emmer wein ze
+                     perchrecht und ze Mittervasten funfzehen dn. ze voitrecht der hochgepornen fuerstinne
+                     herzogin Elspeten, herzog Hainreichs seligen witib, um aindlefthalb lb dn
+                  </cei:foreign>.. .. 
+                  <cei:foreign>dem erbern priester her Niclasen von Subenprunne, capelan hern Hainreichs des Schuechler,
+                     purger ze Wien und munzmaister in Osterich
+                  </cei:foreign>.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:date value="13400514">1340 V 14</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00218_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00218_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Das 1. Siegel fehlt, 2. anhangend.Besiegelt mit den Siegeln: 1. des obersten Bergmeisters
+                        
+                        <cei:legend>hern Hainreichs von Eisenburch, hofmaister der hochgeporn fürstin herzogin Elsbeten,
+                           herzog Hainreichs seligen witib
+                        </cei:legend>, 2. 
+                        <cei:legend>hern Haunoldes des Schuechler, purger ze Wienn</cei:legend>.
+                     </cei:sealDesc>
+                  </cei:auth>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:quoteOriginaldatierung>des nachsten suntages nach sand Pangrezen tag.</cei:quoteOriginaldatierung>
+               </cei:diplomaticAnalysis>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>

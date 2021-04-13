@@ -40,32 +40,32 @@ def loadFile(dataPath):
 
 def searchReg(regDict):
 
-    resultsDict = {}
-    count = 0
-    regList = []
+    resultsDict = {}    #empty dict for the results
+    count = 0           #counts the regests where the search term is found
+    regList = []        #list with all the reg-numbers
 
-    for key, val in regDict.items():
+    for key, val in regDict.items():    #loops through the json file of the regests
 
-        resultsDict["searchTerm"] = searchTerm
+        resultsDict["searchTerm"] = searchTerm  #adds the search term to the dict
         
-        if "cont" in val:
-            if re.search(r"%s" % searchTerm, val["cont"], flags=re.IGNORECASE):           
-                resultsDict[key] = {}
-                resultsDict[key]["cont"] = val["cont"]
-                resultsDict[key]["link"] = val["link"]
-                count +=1
-                regList.append(key)
+        if "cont" in val:       #does the current regest have content?
+            if re.search(r"%s" % searchTerm, val["cont"], flags=re.IGNORECASE): #searches the term in the content           
+                resultsDict[key] = {}       #creates empty dict with the key if the term is found
+                resultsDict[key]["cont"] = val["cont"]  #saves the content
+                resultsDict[key]["id"] = val["id"]      #saves over the id
+                count +=1                               #counter
+                regList.append(key)                     #add id tho the list
 
-        resultsDict["count"] = count  
+        resultsDict["count"] = count                    #add counter
 
-        currentTime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        currentTime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')  #adds timestamp
         resultsDict["timestamp"] = currentTime 
 
-    resultsDict["list"] =  regList              
+    resultsDict["list"] =  regList           #adds list   
                
     return resultsDict
 
-def saveResults(resultsDict):
+def saveResults(resultsDict):               #saves results into a json file
 
     saveWith = re.sub("\W+", "", searchTerm)
     saveTo = os.path.join(dataPath, "searches", "%s.searchResults" % saveWith)

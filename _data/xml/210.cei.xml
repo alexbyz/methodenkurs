@@ -1,0 +1,65 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/210</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2010-02-26T21:12:20+01:00</atom:published>
+   <atom:updated>2010-02-26T21:12:20+01:00</atom:updated>
+   <atom:author>
+      <atom:email></atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns="http://www.monasterium.net/NS/cei" xmlns:cei="http://www.monasterium.net/NS/cei" id="514379" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 210</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="210" old="514379">210</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>Herzog Albrecht II. gibt 
+                  <cei:foreign>Haunolten</cei:foreign> dem 
+                  <cei:foreign>Schu/ehler</cei:foreign> und seinen Erben, Söhnen und Töchtern, alles Gut, das dieser von 
+                  <cei:foreign>Marcharten und Erchenbrechten, brudern von Mistelbach, der dasselb gu/ot aigens und
+                     anerstorbens erbgu/ot gewesen ist
+                  </cei:foreign>, gekauft hat und die Letzteren dem Herzoge aufgegeben haben, zu Lehen: 
+                  <cei:foreign>hundert ember perchrechtes, die da ligent in den Siben Schossen in dem Nidern Harde
+                     und darzu/o immer ouf den ember drei phunt vogtrechtes und vierzehen Schilling geltes
+                     daselbs auf weingarten, di abzelösen sint immer 30 dn. geltes mit eim phunt Wienner
+                     phenning, und den zehenden ze Enzestorf, chlainen und grossen, auf fümf ganzen lehen
+                     und den zehenden ze Nidern Neunsidel dabei, auch auf fümf ganzen lehen, chlainen und
+                     grossen
+                  </cei:foreign>.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:placeName>Wien</cei:placeName>
+                  <cei:date value="13390402">1339 IV 02</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00210_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00210_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Anhangendes Reitersiegel (Sava Fig. 16).</cei:sealDesc>
+                  </cei:auth>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:quoteOriginaldatierung>Der geben ist ze Wienn am vreitag in der Osterwochen, nach Christes gepurt 1300 jar
+                     im 39. jar.
+                  </cei:quoteOriginaldatierung>
+               </cei:diplomaticAnalysis>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>

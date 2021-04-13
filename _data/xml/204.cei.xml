@@ -1,0 +1,59 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bf="http://betterform.sourceforge.net/xforms">
+   <atom:id>tag:www.monasterium.net,2011:/charter/AT-WStLA/HAUrk/204</atom:id>
+   <atom:title></atom:title>
+   <atom:published>2010-02-26T21:12:17+01:00</atom:published>
+   <atom:updated>2010-02-26T21:12:17+01:00</atom:updated>
+   <atom:author>
+      <atom:email></atom:email>
+   </atom:author>
+   <app:control xmlns:app="http://www.w3.org/2007/app">
+      <app:draft>no</app:draft>
+   </app:control>
+   <atom:content type="application/xml">
+      <cei:text xmlns="http://www.monasterium.net/NS/cei" xmlns:cei="http://www.monasterium.net/NS/cei" id="514373" type="charter">
+         <cei:front>
+            <cei:sourceDesc>
+               <cei:sourceDescRegest>
+                  <cei:bibl>Quellen zur Geschichte der Stadt Wien, Bd. II/1, Nr. 204</cei:bibl>
+               </cei:sourceDescRegest>
+            </cei:sourceDesc>
+         </cei:front>
+         <cei:body>
+            <cei:idno id="204" old="514373">204</cei:idno>
+            <cei:chDesc>
+               <cei:abstract>
+                  <cei:foreign>Hainreich der Ratgeb</cei:foreign> und Elsbet, seine Hausfrau, 
+                  <cei:foreign>Niclas und Fridreich, sein sune</cei:foreign>, und 
+                  <cei:foreign>Kathrei und Chunigunt</cei:foreign>, seine Töchter, verkaufen mit Handen ihrer Grundfrau, 
+                  <cei:foreign>vron Kathrein, aptessin ze sand Niclas ze Wienn, Chunraden dem Wiltwercher, purger
+                     ze Wienn
+                  </cei:foreign>, und seiner Hausfrau 
+                  <cei:foreign>Mergarten</cei:foreign> einen Baumgarten, 
+                  <cei:foreign>der da leit zwissen Otten des Schreiber und Hainreichs, des mauter</cei:foreign>, Baumgarten, von dem man alljährlich dem Kloster 30 dn. Grundrecht dient, um 
+                  <cei:foreign>neunthalb phunt Wienner phenning</cei:foreign>.
+               </cei:abstract>
+               <cei:issued>
+                  <cei:date value="13390105">1339 I 05</cei:date>
+               </cei:issued>
+               <cei:witnessOrig>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00204_r.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:figure>
+                     <cei:graphic url="WStLA-HA-Urkunden_00204_v.jpg"></cei:graphic>
+                  </cei:figure>
+                  <cei:auth>
+                     <cei:sealDesc>Anhangendes Siegel, spitzoval.Besiegelt von der Grundfrau.</cei:sealDesc>
+                  </cei:auth>
+                  <cei:archIdentifier>Wiener Stadt- und Landesarchiv</cei:archIdentifier>
+               </cei:witnessOrig>
+               <cei:witListPar></cei:witListPar>
+               <cei:diplomaticAnalysis>
+                  <cei:quoteOriginaldatierung>an dem Perichtabent.</cei:quoteOriginaldatierung>
+               </cei:diplomaticAnalysis>
+            </cei:chDesc>
+         </cei:body>
+         <cei:back></cei:back>
+      </cei:text>
+   </atom:content>
+</atom:entry>
